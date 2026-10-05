@@ -2,7 +2,7 @@
 
     {% set sql %}
         create materialized view if not exists
-            `{{ target.project }}.{{ target.dataset }}.nayan_materialized_view`
+            `{{ target.project }}.{{ target.dataset }}.utkarsh_materialized_view`
         as 
         select * from {{ref('src_hosts')}}
     {% endset %}

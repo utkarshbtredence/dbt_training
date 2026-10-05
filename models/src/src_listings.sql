@@ -6,7 +6,7 @@
             "data_type" : "timestamp",
             "granularity" : "day"
         },
-        tags = ['nayan','airbnb','models']
+        tags = ['utkarsh','airbnb','models']
     )
 }}
 

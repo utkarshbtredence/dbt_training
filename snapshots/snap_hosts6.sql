@@ -2,7 +2,7 @@
 
 {{
     config(
-        target_schema = 'tred_nayan',
+        target_schema = 'tred_utkarsh',
         unique_key='host_id',
         strategy='check',
         check_cols=['all'],

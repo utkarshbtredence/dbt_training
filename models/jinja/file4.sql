@@ -9,7 +9,7 @@
  
 {% if execute %}
     {% set results = run_query(
-    "select count(*) from tred_nayan.src_hosts_old"
+    "select count(*) from tredence_utkarsh.src_hosts_old"
 )%}
     {% set rowcount = results.columns[0].values()[0] %}
     {{log("rowcount = " ~ rowcount, info = true)}}

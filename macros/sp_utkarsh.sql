@@ -1,4 +1,4 @@
-{% macro sp_nayan() %}
+{% macro sp_utkarsh() %}
  
     {% set sql %}
         CREATE OR REPLACE PROCEDURE `{{ target.project }}.{{ target.dataset }}.update_host_name`

@@ -2,7 +2,7 @@
 
 {{
     config(
-        target_schema = 'tred_nayan',
+        target_schema = 'tred_utkarsh',
         unique_key=['listing_id','reviewer_name','review_text'],
         strategy='check',
         check_cols=['listing_id','reviewer_name','review_text'],

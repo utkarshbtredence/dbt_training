@@ -8,7 +8,7 @@
         },
         require_partition_filter = true,
         partition_expiration_days = 3500,
-        tags = ['nayan','airbnb','models']
+        tags = ['utkarsh','airbnb','models']
     )
 }}
 

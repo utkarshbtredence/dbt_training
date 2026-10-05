@@ -23,7 +23,7 @@ clean-targets:         # directories to be removed by `dbt clean`
   - "dbt_packages"
 
 # on-run-start:
-#   - "{{sp_nayan()}}"
+#   - "{{sp_utkarsh()}}"
 #   - "{{audit_start()}}"
 
 # on-run-end:
@@ -78,6 +78,6 @@ vars:
 
 snapshots:
   training:
-    +schema: tred_nayan
+    +schema: tred_utkarsh
     +hard_deletes: 'ignore'
     +enabled: true
